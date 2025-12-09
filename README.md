@@ -44,10 +44,14 @@ Run the script with appropriate arguments:
 ### Examples
 
 List certificates, do not change anything:
+```sh
 ./cert-wsl.sh -u
+```
 
 Clear target folder on WSL, then copy certificates from Windows to WSL:
+```sh
 ./cert-wsl.sh -u
+```
 
 ## Debugging
 To debug, you can check the extracted certificates and validate them with OpenSSL:
