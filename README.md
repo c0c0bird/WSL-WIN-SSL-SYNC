@@ -29,7 +29,7 @@ This project is licensed under the **Apache 2.0 License**.
 ## Usage
 Run the script with appropriate arguments:
 ```sh
-WIP
+./cert-wsl.sh [options]
 ```
 
 ### Arguments
