@@ -33,10 +33,21 @@ WIP
 ```
 
 ### Arguments
-WIP
+* -u Update certificates from Windows to WSL
+* -t Test
+* -n Dry-Run: List certificates from Windows
+* -r Reset
+* -d Debug
+* -v Verbose
+* -h Print help
 
 ### Examples
-WIP
+
+List certificates, do not change anything:
+./cert-wsl.sh -u
+
+Clear target folder on WSL, then copy certificates from Windows to WSL:
+./cert-wsl.sh -u
 
 ## Debugging
 To debug, you can check the extracted certificates and validate them with OpenSSL:
